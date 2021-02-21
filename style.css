@@ -1,0 +1,100 @@
+*{margin: 0; padding:0;}
+.part1{
+	width: 100%;
+	height: 400px;
+	background-image: url(1.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+.part2{
+	width: 100%;
+	height: 400px;
+	background-image: url(2.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+.part3{
+	width: 100%;
+	height: 400px;
+	background-image: url(3.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+.part4{
+	width: 100%;
+	height: 400px;
+	background-image: url(4.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.part1 .noidung, .part4 .noidung{
+	text-align: right;
+	padding-top: 147px;
+	padding-right: 200px;
+	line-height: 39px;
+}
+.part2 .noidung, .part3 .noidung{
+	text-align: left;
+	padding-top: 147px;
+	padding-left : 140px;
+	line-height: 39px;
+}
+.chunho{
+	font-family: 'segoe ui light';
+	font-size: 18px;
+	color: black;
+}
+.part2 .chunho, .part4 .chunho{
+	
+	color: white;
+}
+.chuto{
+	font-family: 'segoe ui light';
+	font-size: 42px;
+	font-weight: bold;
+	color: black;
+}
+.part2 .chuto, .part4 .chuto{
+	color: white;
+}
+.click{
+	text-decoration: none;
+	font-family: 'segoe ui light';
+	font-size: 17px;
+	color: white;
+	background-color: black;
+	display: inline-block;
+	margin-top: 29px;
+	padding: 5px 13px;
+	border-radius: 5px;
+}
+.part2 .click, .part4 .click{
+	color: black;
+	background-color: #caa5a5;
+	border: 1px solid black;
+}
+.part1 .click:hover{
+	background-color: #ffffff00;
+	color: black;
+	border: 1px solid black;
+	transition: 0.4s;
+}
+.part2 .click:hover{
+	background-color: #ffffff00;
+	color: white;
+	border: 1px solid white;
+	transition: 0.4s;
+}
+.part3 .click:hover{
+	background-color: #ffffff00;
+	color: black;
+	border: 1px solid black;
+	transition: 0.4s;
+}
+.part4 .click:hover{
+	background-color: #ffffff00;
+	color: white;
+	border: 1px solid white;
+	transition: 0.4s;
+}
